@@ -32,7 +32,7 @@ function play(playerSelection, computerSelection) {
         computerScore += 1
         return alert("You lose! Rock beats Scissors!\nThe score is:   You - " + playerScore + "   Computer - " + computerScore);
     } else {
-        return alert("WRONG INPUT!");
+        return alert("WRONG INPUT!\n\"" + playerSelection.toLowerCase() + '" is not accepted!');
     }
 }
 var rounds = 5;
